@@ -1,5 +1,4 @@
 import json
-from unittest.mock import Base
 
 def encode_message(msg: object) -> bytes:
     content = json.dumps(msg, separators=(',', ':'))
